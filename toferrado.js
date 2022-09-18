@@ -119,3 +119,5 @@ const apagarTarefa = () => {
 const salvaTarefas = () => {
   localStorage.setItem("tarefas", JSON.stringify(tarefas));
 };
+
+navigator.serviceWorker.register('./toferrado-sw.js');
